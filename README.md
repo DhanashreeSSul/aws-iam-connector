@@ -70,6 +70,16 @@ go run .
 
 ---
 
+## SSH Key Management  
+
+- 🔑 Generates a new **RSA SSH key pair (2048-bit)**  
+- 💾 Saves the private key locally as `id_rsa`  
+- 🔗 Can attach the public key to IAM users (extendable)  
+
+⚠️ **Note:** Never commit `id_rsa` to GitHub. It is ignored in `.gitignore`.  
+
+---
+
 ## Webhook System  
 
 The connector can notify external systems (**Slack, Teams, Webhook.site**).  
